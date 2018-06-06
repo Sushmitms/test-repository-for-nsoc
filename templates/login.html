@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<form class="" method="post">
+		<input type="text" name="email" placeholder="Email">
+		<input type="password" name="password" placeholder="Password">
+		<button type="submit" name="login_submit">Sign In</button>
+		<br>
+		{% if error %}
+			{{error}}
+		{% endif%}
+	</form>
+	
+
+</body>
+</html>

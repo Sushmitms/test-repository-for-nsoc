@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TEST</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/new.css">
+
+</head>
+<body>
+	<h1>NSOC</h1>
+	<p>This is NIE Summer of Codes 5.0</p>
+    <ul>
+		{% for fruit in fruits %}
+		<li>
+			{{fruit}}
+		</li>
+		{% endfor %}
+	</ul>	
+	<a href="/home">HOME</a>
+	<img src="/static/images/th.jpg" alt="sun" height="300" width="300">
+
+</body>
+</html>
